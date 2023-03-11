@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'STIX Two Text', serif;
+}
+html{
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+img{
+    object-fit: cover;
+}
+h1{
+    font-family: 'STIX Two Text', serif;
+}
+.logo{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.logo:hover{
+    color: #03c6e9;
+}
+a{
+    text-decoration: none!important;
+}
+a:hover{
+    color:#03c6e9!important;
+}
+.nav-link{
+    color: #fff!important;
+    margin: 15px;
+    font-size: 15px;
+}
+
+.p-4 {
+    padding: 0.25rem!important;
+}
+.row {
+    --bs-gutter-x: 0 !important;
+}
+.nav-link:hover {
+    color: #03c6e9 !important;
+}
+
+.btn-outline-primary {
+    color: #03c6e9 !important;
+    border-color: #03c6e9 !important;
+
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background: #03c6e9 !important;
+}
+
+.btn-primary{
+    background: #03c6e9!important;
+}
+.btn-primary:hover{
+    background: #fff!important;
+    color: #03c6e9!important;
+}
+.card{
+    cursor: pointer;
+    border-radius: 0!important;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card:hover {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+#icon:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #111;
+    width: 140px;
+}
+#icon:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #111;
+    width: 140px;
+}
+.tab-btn{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.tab-btn li {
+    padding: 10px;
+}
+.btn-black{
+    background: #111;
+    color: #fff;
+    width: 100px;
+    border-radius: 0!important;
+}
+.btn-black:hover{
+    background: #fff;
+    border-color: #111;
+    color: #111;
+}
+.btn-black:active{
+    background: #fff;
+    border-color: #111;
+    color: #111;
+}
+.col-6{
+    padding: 20px;
+}
+.col-3{
+    padding: 20px;
+}
+.col-3 strong{
+    cursor: pointer;
+}
+.col-3 i{
+    cursor: pointer;
+}
+.col-3 strong:hover{
+    color:#03c6e9;
+}
+.img-background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-background:hover{
+    opacity: 0.5;
+    animation-duration: 0.5s;
+    animation-name: example;
+}
+.img-background:after{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    content: '';
+}
+.background-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.background-image:after{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    content: '';
+}
+.card-title{
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 2em;
+    line-height: 1.8em;
+}
+
+.outline-primary {
+    color: #034982;
+    background: #fff;
+    border: 2px solid #034982;
+    border-radius: 99px;
+}
+
+.outline-primary:hover {
+    color: #ffff !important;
+    background: #034982;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .tab-btn li{
+        padding: 0;
+    }
+}
+
+
