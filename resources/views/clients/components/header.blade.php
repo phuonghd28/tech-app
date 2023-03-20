@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <div class="container-fluid">
             <div class="logo">
-                <img src="images/3.png" alt="" width="100px"
+                <img src="/assets/images/3.png" alt="" width="100px"
                      style="padding: 10px">
                 <a class="navbar-brand" href="../views/index.html"></a>
             </div>

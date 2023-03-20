@@ -22,7 +22,7 @@
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
     @yield('custom_css')
     <title>HDNTech</title>
 </head>
@@ -39,7 +39,7 @@
 <!--Footer-->
 @include('clients.components.footer')
 
-<script src="js/index.js"></script>
+<script src="/assets/js/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
@@ -49,6 +49,8 @@
 <!-- Your Plugin chat code -->
 <div id="fb-customer-chat" class="fb-customerchat">
 </div>
+<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
 @yield('custom_js')
 <script>
     var chatbox = document.getElementById('fb-customer-chat');
